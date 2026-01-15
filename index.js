@@ -49,7 +49,7 @@ app.route("/api/users/:id")
 
         fs.writeFileSync('./MOCK_DATA.json', JSON.stringify(users, null, 2));
         return res.json({
-            message: "user deleted",
+            message: "user deleted!!",
             user: deletedUser
         })
     });
